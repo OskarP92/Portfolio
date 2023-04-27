@@ -131,6 +131,7 @@ li .navigation-list__item--active {
 .profile {
     max-width: 700px;
     margin: 0 auto;
+    padding: 100px 0 0;
 }
 
 .profile p {
@@ -175,6 +176,11 @@ button:hover,
 button:focus {
     cursor: pointer;
     opacity: 0.7;
+}
+
+.button:visited,
+button:visited {
+    color: #fff;
 }
 
 /* about page */
